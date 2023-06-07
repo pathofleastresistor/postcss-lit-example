@@ -1,0 +1,10 @@
+{
+  "name": "postcss-lit-example",
+  "version": "1.0.0",
+  "devDependencies": {
+    "lit": "^2.7.5",
+    "postcss-cli": "^10.1.0",
+    "postcss-lit": "^1.1.0",
+    "typescript": "^5.1.3"
+  }
+}
