@@ -1,6 +1,10 @@
 {
   "name": "postcss-lit-example",
   "version": "1.0.0",
+  "scripts": {
+    "build1": "tsc && npx postcss -r src/main.js",
+    "build2": "npx postcss -r src/main.ts && tsc"
+  },
   "devDependencies": {
     "lit": "^2.7.5",
     "postcss-cli": "^10.1.0",

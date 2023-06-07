@@ -9,4 +9,6 @@ class MyElement extends lit_1.LitElement {
     }
 }
 MyElement.styles = (0, lit_1.css) `
+    @tailwind base;
+    @tailwind utilities;
   `;
